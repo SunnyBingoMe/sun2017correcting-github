@@ -1,6 +1,10 @@
 This repo is for the paper:
 
-Correcting and Complementing Freeway Traffic Accident Data Using Mahalanobis Distance Based Outlier Detection.
+Correcting and Complementing Freeway Traffic Accident Data Using Mahalanobis Distance Based Outlier Detection. 
+
+Journal Abbr.: Teh. Vjesn.
+
+DOI: 10.17559/TV-20150616163905.
 
 Some content will be updated later.
 
