@@ -42,5 +42,6 @@ Thirdly, we describe a general method to modify Mahalanobis distance algorithms 
 ```
 
 # Paper
-The full-text of the paper will be available on-line, open access: [Teh. Vjesn.](http://dx.doi.org/10.17559/TV-20150616163905).
+The full-text of the paper will be available on-line, open access: [Tehnicki Vjesnik-Technical Gazette](http://dx.doi.org/10.17559/TV-20150616163905).
+
 The code is available on [GitHub](https://github.com/SunnyBingoMe/sun2017correcting-github).
