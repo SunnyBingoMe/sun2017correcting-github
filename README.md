@@ -53,3 +53,10 @@ Full-text info is available: [Tehnicki Vjesnik-Technical Gazette](http://clck.ru
 The code is available on [GitHub](https://github.com/SunnyBingoMe/sun2017correcting-github).
 
 First author's web: [DMML.NU](http://about.dmml.nu)
+
+# Selected Figures
+![uiMainCompressedColored](uiMainCompressedColored.png)
+
+![uiMainPlotCompressed](uiMainPlotCompressed.png)
+
+![uiMainPlotOneDevice](uiMainPlotOneDevice.png)
