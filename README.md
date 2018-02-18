@@ -55,8 +55,11 @@ The code is available on [GitHub](https://github.com/SunnyBingoMe/sun2017correct
 First author's web: [DMML.NU](http://about.dmml.nu)
 
 # Selected Figures
+## overview
 ![uiMainCompressedColored](uiMainCompressedColored.png)
 
+## plot area
 ![uiMainPlotCompressed](uiMainPlotCompressed.png)
 
+## plot for one device
 ![uiMainPlotOneDevice](uiMainPlotOneDevice.png)
