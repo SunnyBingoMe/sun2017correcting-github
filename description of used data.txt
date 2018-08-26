@@ -1,0 +1,107 @@
+> class(F_FLOW.asDevice)
+[1] "list"
+> head(names(F_FLOW.asDevice))
+[1] "LD36013046" "LD36013040" "LD36023022" "LD36023024" "LD36033056" "LD36023020"
+> summary(F_FLOW.asDevice[['LD36023022']])
+    FLOW_ID            COUNT_TIME                   SITE_CODE         DIRECTION_CODE      DEVICE_NBR            PERIOD      LANE          
+ Min.   :630243382   Min.   :2013-04-01 00:00:53   Length:104374      Length:104374      Length:104374      Min.   :0   Length:104374     
+ 1st Qu.:649168608   1st Qu.:2013-07-04 17:46:16   Class :character   Class :character   Class :character   1st Qu.:0   Class :character  
+ Median :670095410   Median :2013-10-29 08:27:30   Mode  :character   Mode  :character   Mode  :character   Median :0   Mode  :character  
+ Mean   :669279074   Mean   :2013-10-23 22:25:18                                                            Mean   :0                     
+ 3rd Qu.:688172374   3rd Qu.:2014-02-02 07:28:48                                                            3rd Qu.:0                     
+ Max.   :706646512   Max.   :2014-05-12 11:15:02                                                            Max.   :0                     
+   NUM_TOTAL        NUM_LARGE   NUM_MIDDLE   NUM_SMALL   NUM_MOTOR        NUM_OTHER   AVR_SPEED        AVR_LENGTH   AVR_SPACE      AVR_TIMESPAN   
+ Min.   :  0.00   Min.   :0   Min.   :0    Min.   :0   Min.   :  0.00   Min.   :0   Min.   :  0.00   Min.   :0    Min.   :  0.0   Min.   :0.0000  
+ 1st Qu.:  9.00   1st Qu.:0   1st Qu.:0    1st Qu.:0   1st Qu.:  9.00   1st Qu.:0   1st Qu.: 70.00   1st Qu.:0    1st Qu.:105.0   1st Qu.:1.0000  
+ Median : 24.00   Median :0   Median :0    Median :0   Median : 24.00   Median :0   Median : 79.00   Median :0    Median :118.3   Median :1.0000  
+ Mean   : 25.55   Mean   :0   Mean   :0    Mean   :0   Mean   : 25.55   Mean   :0   Mean   : 75.89   Mean   :0    Mean   :114.3   Mean   :0.9865  
+ 3rd Qu.: 38.00   3rd Qu.:0   3rd Qu.:0    3rd Qu.:0   3rd Qu.: 38.00   3rd Qu.:0   3rd Qu.: 84.00   3rd Qu.:0    3rd Qu.:127.1   3rd Qu.:1.0000  
+ Max.   :162.00   Max.   :0   Max.   :0    Max.   :0   Max.   :162.00   Max.   :0   Max.   :160.00   Max.   :0    Max.   :240.0   Max.   :1.0000  
+   OCCUPANCY       ORG_CODE        
+ Min.   : 0.00   Length:104374     
+ 1st Qu.: 1.80   Class :character  
+ Median : 4.80   Mode  :character  
+ Mean   : 5.11                     
+ 3rd Qu.: 7.60                     
+ Max.   :32.40  
+
+
+> head(names(deviceList))
+[1] "LD36013046" "LD36013040" "LD36023022" "LD36023024" "LD36033056" "LD36023020"
+> deviceList[['LD36023022']] # each device has a short ID and a long ID.
+[[1]]
+[1] "LD36023022"
+
+[[2]]
+[1] "533604000010030029"
+
+> summary(D_DEVICE.flowOnly)
+  DEVICE_NBR        DEVICE_NBR_STANDARD DEVICE_NAME          G78_METER          KS_METER     DIRECTION_SUNNY    data_direction_in_distinct_flow
+ Length:25          Length:25           Length:25          Min.   :2041800   Min.   : 8850   Length:25          Length:25                      
+ Class :character   Class :character    Class :character   1st Qu.:2061500   1st Qu.:19255   Class :character   Class :character               
+ Mode  :character   Mode  :character    Mode  :character   Median :2077000   Median :42000   Mode  :character   Mode  :character               
+                                                           Mean   :2079306   Mean   :39694                                                     
+                                                           3rd Qu.:2099745   3rd Qu.:57500                                                     
+                                                           Max.   :2110150   Max.   :77200                                                     
+ data_lane_in_distinct_flow NOTES_SUNNY        DEVICE_DESC    nbr_in_flow        nbr_in_violation  
+ Length:25                  Length:25          Mode:logical   Length:25          Length:25         
+ Class :character           Class :character   NA's:25        Class :character   Class :character  
+ Mode  :character           Mode  :character                  Mode  :character   Mode  :character
+
+> summary(accidentDf)
+  FROM_TABLE        ACCIDENT_OCCUR_TIME    KS_METER     ACCIDENT_POINT     ABS_POSITION         S_NOTES          ACCIDENT_FACT_BRIEF_DETAIL
+ Length:922         Length:922          Min.   : 8900   Length:922         Length:922         Length:922         Length:922                
+ Class :character   Class :character    1st Qu.:26750   Class :character   Class :character   Class :character   Class :character          
+ Mode  :character   Mode  :character    Median :37800   Mode  :character   Mode  :character   Mode  :character   Mode  :character          
+                                        Mean   :38022                                                                                      
+                                        3rd Qu.:48150                                                                                      
+                                        Max.   :77000                                                                                      
+ ANALYZED_DIRECTION ANALYZED_OCCUR_TIME           ANALYZED_END_TIME               COR_COE_1        COR_COE_2        COR_COE_3        COR_COE_4     
+ Length:922         Min.   :2013-04-03 11:20:00   Min.   :2013-04-03 00:00:00   Min.   :0.5758   Min.   :0.5364   Min.   :0.5402   Min.   :0.6103  
+ Class :character   1st Qu.:2013-04-05 06:08:45   1st Qu.:2013-04-05 00:51:15   1st Qu.:0.9924   1st Qu.:0.9933   1st Qu.:0.9967   1st Qu.:0.9963  
+ Mode  :character   Median :2013-04-11 14:42:30   Median :2013-04-11 03:57:30   Median :0.9974   Median :0.9981   Median :0.9990   Median :0.9988  
+                    Mean   :2013-04-18 07:33:20   Mean   :2013-04-17 22:35:50   Mean   :0.9883   Mean   :0.9897   Mean   :0.9951   Mean   :0.9929  
+                    3rd Qu.:2013-04-22 06:46:15   3rd Qu.:2013-04-21 14:26:15   3rd Qu.:0.9994   3rd Qu.:0.9996   3rd Qu.:0.9996   3rd Qu.:0.9996  
+                    Max.   :2013-05-24 05:10:00   Max.   :2013-05-24 05:55:00   Max.   :1.0000   Max.   :1.0000   Max.   :1.0000   Max.   :1.0000  
+    COR_COE      
+ Min.   :0.5364  
+ 1st Qu.:0.9848  
+ Median :0.9941  
+ Mean   :0.9774  
+ 3rd Qu.:0.9974  
+ Max.   :1.0000  
+
+> head(names(mResultList.diff.aggregated))
+[1] "LD36013046" "LD36013040" "LD36023022" "LD36023024" "LD36033056" "LD36023020"
+> class(mResultList.diff.aggregated[['LD36023022']])
+[1] "list"
+> length(mResultList.diff.aggregated[['LD36023022']]) # hourIndex, 1 to 24
+[1] 24
+> mResultList.diff.aggregated[['LD36023022']][[1]]
+$threshold
+[1] 10.43309
+
+$adaptiveThreshold
+[1] 10.43309
+
+$chiSquareThreshold
+[1] 5.991465
+
+$center
+ NUM_TOTAL  AVR_SPEED 
+-0.2944277 -0.1762048 
+
+$cov
+          NUM_TOTAL AVR_SPEED
+NUM_TOTAL 20.443879  1.646369
+AVR_SPEED  1.646369 76.027364
+
+$count
+[1] 4180
+
+$mean
+ NUM_TOTAL  AVR_SPEED 
+-0.3081340 -0.0708134 
+
+#Note: the dataframe mResultList.aggregated has similar structures, but with non-diff values and results.
+

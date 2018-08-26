@@ -1,0 +1,448 @@
+R version 3.1.1 (2014-07-10) -- "Sock it to Me"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+>> sink('installed.packages.txt');installed.packages();sink()
+
+                          Package                     LibPath                              Version     Priority     
+abind                     "abind"                     "D:/Program Files/R/R-3.1.1/library" "1.4-0"     NA           
+AppliedPredictiveModeling "AppliedPredictiveModeling" "D:/Program Files/R/R-3.1.1/library" "1.1-5"     NA           
+ash                       "ash"                       "D:/Program Files/R/R-3.1.1/library" "1.0-14"    NA           
+assertthat                "assertthat"                "D:/Program Files/R/R-3.1.1/library" "0.1"       NA           
+audio                     "audio"                     "D:/Program Files/R/R-3.1.1/library" "0.1-5"     NA           
+base                      "base"                      "D:/Program Files/R/R-3.1.1/library" "3.1.1"     "base"       
+base64enc                 "base64enc"                 "D:/Program Files/R/R-3.1.1/library" "0.1-2"     NA           
+beepr                     "beepr"                     "D:/Program Files/R/R-3.1.1/library" "1.2"       NA           
+BH                        "BH"                        "D:/Program Files/R/R-3.1.1/library" "1.54.0-4"  NA           
+biotools                  "biotools"                  "D:/Program Files/R/R-3.1.1/library" "2.2"       NA           
+bitops                    "bitops"                    "D:/Program Files/R/R-3.1.1/library" "1.0-6"     NA           
+boot                      "boot"                      "D:/Program Files/R/R-3.1.1/library" "1.3-11"    "recommended"
+BradleyTerry2             "BradleyTerry2"             "D:/Program Files/R/R-3.1.1/library" "1.0-5"     NA           
+brglm                     "brglm"                     "D:/Program Files/R/R-3.1.1/library" "0.5-9"     NA           
+cairoDevice               "cairoDevice"               "D:/Program Files/R/R-3.1.1/library" "2.20"      NA           
+car                       "car"                       "D:/Program Files/R/R-3.1.1/library" "2.0-25"    NA           
+caret                     "caret"                     "D:/Program Files/R/R-3.1.1/library" "6.0-68"    NA           
+caTools                   "caTools"                   "D:/Program Files/R/R-3.1.1/library" "1.17.1"    NA           
+chron                     "chron"                     "D:/Program Files/R/R-3.1.1/library" "2.3-47"    NA           
+class                     "class"                     "D:/Program Files/R/R-3.1.1/library" "7.3-10"    "recommended"
+clickme                   "clickme"                   "D:/Program Files/R/R-3.1.1/library" "0.5.3"     NA           
+cluster                   "cluster"                   "D:/Program Files/R/R-3.1.1/library" "1.15.2"    "recommended"
+codetools                 "codetools"                 "D:/Program Files/R/R-3.1.1/library" "0.2-8"     "recommended"
+colorspace                "colorspace"                "D:/Program Files/R/R-3.1.1/library" "1.2-4"     NA           
+combinat                  "combinat"                  "D:/Program Files/R/R-3.1.1/library" "0.0-8"     NA           
+compiler                  "compiler"                  "D:/Program Files/R/R-3.1.1/library" "3.1.1"     "base"       
+CORElearn                 "CORElearn"                 "D:/Program Files/R/R-3.1.1/library" "0.9.43"    NA           
+curl                      "curl"                      "D:/Program Files/R/R-3.1.1/library" "0.9.7"     NA           
+data.table                "data.table"                "D:/Program Files/R/R-3.1.1/library" "1.9.6"     NA           
+datasets                  "datasets"                  "D:/Program Files/R/R-3.1.1/library" "3.1.1"     "base"       
+DBI                       "DBI"                       "D:/Program Files/R/R-3.1.1/library" "0.3.1"     NA           
+deldir                    "deldir"                    "D:/Program Files/R/R-3.1.1/library" "0.1-6"     NA           
+DEoptimR                  "DEoptimR"                  "D:/Program Files/R/R-3.1.1/library" "1.0-2"     NA           
+devtools                  "devtools"                  "D:/Program Files/R/R-3.1.1/library" "1.6.1"     NA           
+dichromat                 "dichromat"                 "D:/Program Files/R/R-3.1.1/library" "2.0-0"     NA           
+digest                    "digest"                    "D:/Program Files/R/R-3.1.1/library" "0.6.4"     NA           
+doParallel                "doParallel"                "D:/Program Files/R/R-3.1.1/library" "1.0.8"     NA           
+doSNOW                    "doSNOW"                    "D:/Program Files/R/R-3.1.1/library" "1.0.12"    NA           
+dplyr                     "dplyr"                     "D:/Program Files/R/R-3.1.1/library" "0.3.0.2"   NA           
+DT                        "DT"                        "D:/Program Files/R/R-3.1.1/library" "0.0.25"    NA           
+dygraphs                  "dygraphs"                  "D:/Program Files/R/R-3.1.1/library" "0.4.3"     NA           
+e1071                     "e1071"                     "D:/Program Files/R/R-3.1.1/library" "1.6-3"     NA           
+elasticnet                "elasticnet"                "D:/Program Files/R/R-3.1.1/library" "1.1"       NA           
+ElemStatLearn             "ElemStatLearn"             "D:/Program Files/R/R-3.1.1/library" "2012.04-0" NA           
+evaluate                  "evaluate"                  "D:/Program Files/R/R-3.1.1/library" "0.9"       NA           
+foreach                   "foreach"                   "D:/Program Files/R/R-3.1.1/library" "1.4.3"     NA           
+forecast                  "forecast"                  "D:/Program Files/R/R-3.1.1/library" "7.1"       NA           
+foreign                   "foreign"                   "D:/Program Files/R/R-3.1.1/library" "0.8-61"    "recommended"
+formatR                   "formatR"                   "D:/Program Files/R/R-3.1.1/library" "1.3"       NA           
+Formula                   "Formula"                   "D:/Program Files/R/R-3.1.1/library" "1.1-2"     NA           
+fracdiff                  "fracdiff"                  "D:/Program Files/R/R-3.1.1/library" "1.4-2"     NA           
+ftsa                      "ftsa"                      "D:/Program Files/R/R-3.1.1/library" "4.3"       NA           
+gbm                       "gbm"                       "D:/Program Files/R/R-3.1.1/library" "2.1"       NA           
+gdata                     "gdata"                     "D:/Program Files/R/R-3.1.1/library" "2.13.3"    NA           
+geocodeHERE               "geocodeHERE"               "D:/Program Files/R/R-3.1.1/library" "0.1"       NA           
+GGally                    "GGally"                    "D:/Program Files/R/R-3.1.1/library" "0.4.8"     NA           
+ggplot2                   "ggplot2"                   "D:/Program Files/R/R-3.1.1/library" "2.1.0"     NA           
+goftest                   "goftest"                   "D:/Program Files/R/R-3.1.1/library" "1.0-2"     NA           
+googleVis                 "googleVis"                 "D:/Program Files/R/R-3.1.1/library" "0.5.10"    NA           
+gplots                    "gplots"                    "D:/Program Files/R/R-3.1.1/library" "3.0.1"     NA           
+graphics                  "graphics"                  "D:/Program Files/R/R-3.1.1/library" "3.1.1"     "base"       
+grDevices                 "grDevices"                 "D:/Program Files/R/R-3.1.1/library" "3.1.1"     "base"       
+                          Depends                                                                                    
+abind                     "R (>= 1.5.0)"                                                                             
+AppliedPredictiveModeling "R (>= 2.10)"                                                                              
+ash                       NA                                                                                         
+assertthat                NA                                                                                         
+audio                     "R (>= 2.0.0)"                                                                             
+base                      NA                                                                                         
+base64enc                 "R (>= 2.9.0)"                                                                             
+beepr                     NA                                                                                         
+BH                        NA                                                                                         
+biotools                  "R (>= 2.15), rpanel, tkrplot, MASS"                                                       
+bitops                    NA                                                                                         
+boot                      "R (>= 3.0.0), graphics, stats"                                                            
+BradleyTerry2             "R (>= 2.10), lme4 (>= 1.0)"                                                               
+brglm                     "R (>= 2.6.0), profileModel"                                                               
+cairoDevice               "R (>= 2.12.0)"                                                                            
+car                       "R (>= 2.14.0), stats, graphics"                                                           
+caret                     "R (>= 2.10), lattice (>= 0.20), ggplot2"                                                  
+caTools                   "R (>= 2.2.0)"                                                                             
+chron                     "R (>= 2.12.0)"                                                                            
+class                     "R (>= 3.0.0), stats, utils"                                                               
+clickme                   NA                                                                                         
+cluster                   "R (>= 2.12.0), stats, utils"                                                              
+codetools                 "R (>= 2.1)"                                                                               
+colorspace                "R (>= 2.13.0), methods"                                                                   
+combinat                  NA                                                                                         
+compiler                  NA                                                                                         
+CORElearn                 NA                                                                                         
+curl                      "R (>= 3.0.0)"                                                                             
+data.table                "R (>= 2.14.1)"                                                                            
+datasets                  NA                                                                                         
+DBI                       "R (>= 2.15.0), methods"                                                                   
+deldir                    "R (>= 0.99)"                                                                              
+DEoptimR                  NA                                                                                         
+devtools                  "R (>= 3.0.2)"                                                                             
+dichromat                 "R (>= 2.10), stats"                                                                       
+digest                    "R (>= 2.4.1)"                                                                             
+doParallel                "R (>= 2.14.0), foreach(>= 1.2.0), iterators(>= 1.0.0),\nparallel, utils"                  
+doSNOW                    "R (>= 2.5.0), foreach(>= 1.2.0), iterators(>= 1.0.0), snow(>=\n0.3.0), utils"             
+dplyr                     "R (>= 3.1)"                                                                               
+DT                        NA                                                                                         
+dygraphs                  "R (>= 3.0)"                                                                               
+e1071                     NA                                                                                         
+elasticnet                "R (>= 2.10), lars"                                                                        
+ElemStatLearn             "R (>= 2.10.0), stats"                                                                     
+evaluate                  "R (>= 3.0.2)"                                                                             
+foreach                   "R (>= 2.5.0)"                                                                             
+forecast                  "R (>= 3.0.2), stats, graphics, zoo, timeDate"                                             
+foreign                   "R (>= 3.0.0), stats"                                                                      
+formatR                   "R (>= 3.0.2)"                                                                             
+Formula                   "R (>= 2.0.0), stats"                                                                      
+fracdiff                  NA                                                                                         
+ftsa                      "R (>= 3.0.2), forecast, rainbow"                                                          
+gbm                       "R (>= 2.9.0), survival, lattice, splines, parallel"                                       
+gdata                     "R (>= 2.13.0)"                                                                            
+geocodeHERE               "\nR (>= 3.1.1)"                                                                           
+GGally                    "R (>= 2.14)"                                                                              
+ggplot2                   "R (>= 3.1)"                                                                               
+goftest                   "R (>= 3.1)"                                                                               
+googleVis                 "R (>= 3.0.2)"                                                                             
+gplots                    "R (>= 3.0)"                                                                               
+graphics                  NA                                                                                         
+grDevices                 NA                                                                                         
+                          Imports                                                                                                                                     
+abind                     NA                                                                                                                                          
+AppliedPredictiveModeling "CORElearn, MASS, plyr, reshape2"                                                                                                           
+ash                       NA                                                                                                                                          
+assertthat                NA                                                                                                                                          
+audio                     NA                                                                                                                                          
+base                      NA                                                                                                                                          
+base64enc                 NA                                                                                                                                          
+beepr                     "stringr (>= 1.0.0), audio"                                                                                                                 
+BH                        NA                                                                                                                                          
+biotools                  "utils, stats, graphics, boot, grDevices, datasets"                                                                                         
+bitops                    NA                                                                                                                                          
+boot                      NA                                                                                                                                          
+BradleyTerry2             "brglm, gtools, stats"                                                                                                                      
+brglm                     NA                                                                                                                                          
+cairoDevice               "grDevices"                                                                                                                                 
+car                       "MASS, mgcv, nnet, pbkrtest (>= 0.3-2), quantreg"                                                                                           
+caret                     "car, foreach, methods, plyr, nlme, reshape2, stats, stats4,\nutils, grDevices"                                                             
+caTools                   "bitops"                                                                                                                                    
+chron                     "graphics, stats"                                                                                                                           
+class                     "MASS"                                                                                                                                      
+clickme                   "\nknitr (>= 1.2),\nyaml (>= 2.1.7),\nstringr,\nmethods,\nrjson"                                                                            
+cluster                   "graphics, grDevices"                                                                                                                       
+codetools                 NA                                                                                                                                          
+colorspace                NA                                                                                                                                          
+combinat                  NA                                                                                                                                          
+compiler                  NA                                                                                                                                          
+CORElearn                 "cluster, rpart, stats"                                                                                                                     
+curl                      NA                                                                                                                                          
+data.table                "methods, chron"                                                                                                                            
+datasets                  NA                                                                                                                                          
+DBI                       NA                                                                                                                                          
+deldir                    NA                                                                                                                                          
+DEoptimR                  NA                                                                                                                                          
+devtools                  "httr (>= 0.4), RCurl, utils, tools, methods, memoise, whisker,\nevaluate, digest, rstudioapi, jsonlite"                                    
+dichromat                 NA                                                                                                                                          
+digest                    NA                                                                                                                                          
+doParallel                NA                                                                                                                                          
+doSNOW                    NA                                                                                                                                          
+dplyr                     "assertthat, utils, R6, Rcpp, magrittr, lazyeval (>= 0.1.8),\nDBI (>= 0.3)"                                                                 
+DT                        "\nhtmltools,\nhtmlwidgets,\nmagrittr"                                                                                                      
+dygraphs                  "magrittr, htmlwidgets (>= 0.3.2), zoo (>= 1.7-10), xts (>=\n0.9-7)"                                                                        
+e1071                     "graphics, grDevices, class"                                                                                                                
+elasticnet                NA                                                                                                                                          
+ElemStatLearn             NA                                                                                                                                          
+evaluate                  "methods, stringr (>= 0.6.2)"                                                                                                               
+foreach                   "codetools, utils, iterators"                                                                                                               
+forecast                  "tseries, fracdiff, Rcpp (>= 0.11.0), nnet, colorspace,\nparallel, ggplot2 (>= 2.0.0)"                                                      
+foreign                   "methods, utils"                                                                                                                            
+formatR                   NA                                                                                                                                          
+Formula                   NA                                                                                                                                          
+fracdiff                  NA                                                                                                                                          
+ftsa                      "colorspace, MASS, pcaPP"                                                                                                                   
+gbm                       NA                                                                                                                                          
+gdata                     "gtools"                                                                                                                                    
+geocodeHERE               "\nhttr"                                                                                                                                    
+GGally                    "ggplot2 (>= 1.0.0), grid (>= 3.0.0), gtable (>= 0.1.2), plyr\n(>= 1.8), reshape (>= 0.8.4), stringr (>= 0.6.2)"                            
+ggplot2                   "digest, grid, gtable (>= 0.1.1), MASS, plyr (>= 1.7.1),\nreshape2, scales (>= 0.3.0), stats"                                               
+goftest                   NA                                                                                                                                          
+googleVis                 "methods, RJSONIO, utils"                                                                                                                   
+gplots                    "gtools, gdata, stats, caTools, KernSmooth"                                                                                                 
+graphics                  "grDevices"                                                                                                                                 
+grDevices                 NA                                                                                                                                          
+                          LinkingTo                                    
+abind                     NA                                           
+AppliedPredictiveModeling NA                                           
+ash                       NA                                           
+assertthat                NA                                           
+audio                     NA                                           
+base                      NA                                           
+base64enc                 NA                                           
+beepr                     NA                                           
+BH                        NA                                           
+biotools                  NA                                           
+bitops                    NA                                           
+boot                      NA                                           
+BradleyTerry2             NA                                           
+brglm                     NA                                           
+cairoDevice               NA                                           
+car                       NA                                           
+caret                     NA                                           
+caTools                   NA                                           
+chron                     NA                                           
+class                     NA                                           
+clickme                   NA                                           
+cluster                   NA                                           
+codetools                 NA                                           
+colorspace                NA                                           
+combinat                  NA                                           
+compiler                  NA                                           
+CORElearn                 NA                                           
+curl                      NA                                           
+data.table                NA                                           
+datasets                  NA                                           
+DBI                       NA                                           
+deldir                    NA                                           
+DEoptimR                  NA                                           
+devtools                  NA                                           
+dichromat                 NA                                           
+digest                    NA                                           
+doParallel                NA                                           
+doSNOW                    NA                                           
+dplyr                     "Rcpp (>= 0.11.3), BH (>= 1.51.0-2)"         
+DT                        NA                                           
+dygraphs                  NA                                           
+e1071                     NA                                           
+elasticnet                NA                                           
+ElemStatLearn             NA                                           
+evaluate                  NA                                           
+foreach                   NA                                           
+forecast                  "Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)"
+foreign                   NA                                           
+formatR                   NA                                           
+Formula                   NA                                           
+fracdiff                  NA                                           
+ftsa                      NA                                           
+gbm                       NA                                           
+gdata                     NA                                           
+geocodeHERE               NA                                           
+GGally                    NA                                           
+ggplot2                   NA                                           
+goftest                   NA                                           
+googleVis                 NA                                           
+gplots                    NA                                           
+graphics                  NA                                           
+grDevices                 NA                                           
+                          Suggests                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+abind                     NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+AppliedPredictiveModeling "caret (>= 6.0-22), lattice, ellipse"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+ash                       NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+assertthat                "testthat"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+audio                     NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+base                      NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+base64enc                 NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+beepr                     NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+BH                        NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+biotools                  "soilphysics"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+bitops                    NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+boot                      "MASS, survival"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+BradleyTerry2             "prefmod"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+brglm                     "MASS"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+cairoDevice               NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+car                       "alr4, boot, leaps, lme4, lmtest, Matrix, MatrixModels, nlme,\nrgl (>= 0.93.960), sandwich, SparseM, survival, survey"                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+caret                     "BradleyTerry2, e1071, earth (>= 2.2-3), fastICA, gam, ipred,\nkernlab, klaR, MASS, ellipse, mda, mgcv, mlbench, nnet, party\n(>= 0.9-99992), pls, pROC (>= 1.8), proxy, randomForest, RANN,\nspls, subselect, pamr, superpc, Cubist, testthat (>= 0.9.1)"                                                                                                                                                                                                                                                                                                                      
+caTools                   "MASS, rpart"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+chron                     "scales, ggplot2"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+class                     NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+clickme                   "\ntestthat (>= 0.7.1.99),\nroxygen2"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+cluster                   "MASS"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+codetools                 NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+colorspace                "KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, dichromat"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+combinat                  NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+compiler                  NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+CORElearn                 "lattice,MASS"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+curl                      "testthat, knitr, jsonlite, rmarkdown, magrittr"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+data.table                "ggplot2 (>= 0.9.0), plyr, reshape, reshape2, testthat (>=\n0.4), hexbin, fastmatch, nlme, xts, bit64, gdata,\nGenomicRanges, caret, knitr, curl, zoo, plm"                                                                                                                                                                                                                                                                                                                                                                                                                     
+datasets                  NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+DBI                       "testthat, RSQLite"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+deldir                    "polyclip"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+DEoptimR                  NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+devtools                  "testthat (>= 0.7), roxygen2 (>= 4.0.2), BiocInstaller, Rcpp\n(>= 0.10.0), MASS, rmarkdown, knitr"                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+dichromat                 NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+digest                    NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+doParallel                "caret, mlbench, rpart"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+doSNOW                    "compiler, RUnit, caret, mlbench, rpart"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+dplyr                     "RSQLite, RSQLite.extfuns, RMySQL, RPostgreSQL, data.table,\ntestthat, knitr, microbenchmark, ggplot2, mgcv, Lahman (>=\n3.0-1), nycflights13, methods"                                                                                                                                                                                                                                                                                                                                                                                                                         
+DT                        "\njsonlite,\nknitr (>= 1.8),\nshiny"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+dygraphs                  "testthat"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+e1071                     "cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,\nMatrix, MASS"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+elasticnet                NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+ElemStatLearn             "gam, splines, MASS, class, leaps, mda, lasso2, lars, boot,\nprim, earth"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+evaluate                  "testthat, lattice, ggplot2"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+foreach                   "randomForest"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+forecast                  "testthat"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+foreign                   NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+formatR                   "codetools, shiny, testit, knitr"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Formula                   NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+fracdiff                  "longmemo, urca"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+ftsa                      "fds, R2jags"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+gbm                       "RUnit"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+gdata                     "RUnit"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+geocodeHERE               NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+GGally                    "arm (>= 1.7), intergraph (>= 2.0-0), network (>= 1.7.2),\nRColorBrewer (>= 1.0-5), scales (>= 0.2.3), scagnostics (>=\n0.2-4), sna (>= 2.3-1), survival (>= 2.37-4), tnet (>= 3.0),\nroxygen2 (>= 4.0.1)"                                                                                                                                                                                                                                                                                                                                                                      
+ggplot2                   "covr, ggplot2movies, hexbin, Hmisc, lattice, mapproj, maps,\nmaptools, mgcv, multcomp, nlme, testthat (>= 0.11.0), quantreg,\nknitr, rpart, rmarkdown, svglite"                                                                                                                                                                                                                                                                                                                                                                                                                
+goftest                   NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+googleVis                 "shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5)"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+gplots                    "grid, MASS"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+graphics                  NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+grDevices                 NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                          Enhances                                                        License                        License_is_FOSS License_restricts_use OS_type MD5sum
+abind                     NA                                                              "LGPL (>= 2)"                  NA              NA                    NA      NA    
+AppliedPredictiveModeling NA                                                              "GPL"                          NA              NA                    NA      NA    
+ash                       NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+assertthat                NA                                                              "GPL-3"                        NA              NA                    NA      NA    
+audio                     NA                                                              "MIT + file LICENSE"           NA              NA                    NA      NA    
+base                      NA                                                              "Part of R 3.1.1"              NA              NA                    NA      NA    
+base64enc                 "png"                                                           "GPL-2 | GPL-3"                NA              NA                    NA      NA    
+beepr                     NA                                                              "GPL-3"                        NA              NA                    NA      NA    
+BH                        NA                                                              "BSL-1.0"                      NA              NA                    NA      NA    
+biotools                  NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+bitops                    NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+boot                      NA                                                              "Unlimited"                    NA              NA                    NA      NA    
+BradleyTerry2             "gnm"                                                           "GPL (>= 2)"                   NA              NA                    NA      NA    
+brglm                     NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+cairoDevice               NA                                                              "GPL"                          NA              NA                    NA      NA    
+car                       NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+caret                     NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+caTools                   NA                                                              "GPL-3"                        NA              NA                    NA      NA    
+chron                     "zoo"                                                           "GPL-2"                        NA              NA                    NA      NA    
+class                     NA                                                              "GPL-2 | GPL-3"                NA              NA                    NA      NA    
+clickme                   NA                                                              "GPL-3"                        NA              NA                    NA      NA    
+cluster                   NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+codetools                 NA                                                              "GPL"                          NA              NA                    NA      NA    
+colorspace                NA                                                              "BSD_3_clause + file LICENSE"  NA              NA                    NA      NA    
+combinat                  NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+compiler                  NA                                                              "Part of R 3.1.1"              NA              NA                    NA      NA    
+CORElearn                 NA                                                              "GPL-3"                        NA              NA                    NA      NA    
+curl                      NA                                                              "MIT + file LICENSE"           NA              NA                    NA      NA    
+data.table                NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+datasets                  NA                                                              "Part of R 3.1.1"              NA              NA                    NA      NA    
+DBI                       NA                                                              "LGPL (>= 2)"                  NA              NA                    NA      NA    
+deldir                    NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+DEoptimR                  "robustbase"                                                    "GPL (>= 2)"                   NA              NA                    NA      NA    
+devtools                  NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+dichromat                 NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+digest                    NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+doParallel                "compiler, RUnit"                                               "GPL-2"                        NA              NA                    NA      NA    
+doSNOW                    NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+dplyr                     NA                                                              "MIT + file LICENSE"           NA              NA                    NA      NA    
+DT                        NA                                                              "GPL-3"                        NA              NA                    NA      NA    
+dygraphs                  "rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)"                     "MIT + file LICENSE"           NA              NA                    NA      NA    
+e1071                     NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+elasticnet                NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+ElemStatLearn             NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+evaluate                  NA                                                              "MIT + file LICENSE"           NA              NA                    NA      NA    
+foreach                   "compiler, doMC, RUnit, doParallel"                             "Apache License (== 2.0)"      NA              NA                    NA      NA    
+forecast                  NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+foreign                   NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+formatR                   NA                                                              "GPL"                          NA              NA                    NA      NA    
+Formula                   NA                                                              "GPL-2 | GPL-3"                NA              NA                    NA      NA    
+fracdiff                  NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+ftsa                      NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+gbm                       NA                                                              "GPL (>= 2) | file LICENSE"    NA              NA                    NA      NA    
+gdata                     NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+geocodeHERE               NA                                                              "MIT + file LICENSE"           NA              NA                    NA      NA    
+GGally                    NA                                                              "GPL (>= 2.0)"                 NA              NA                    NA      NA    
+ggplot2                   "sp"                                                            "GPL-2"                        NA              NA                    NA      NA    
+goftest                   NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+googleVis                 NA                                                              "GPL (>= 2)"                   NA              NA                    NA      NA    
+gplots                    NA                                                              "GPL-2"                        NA              NA                    NA      NA    
+graphics                  NA                                                              "Part of R 3.1.1"              NA              NA                    NA      NA    
+grDevices                 NA                                                              "Part of R 3.1.1"              NA              NA                    NA      NA    
+                          NeedsCompilation Built  
+abind                     NA               "3.1.1"
+AppliedPredictiveModeling "no"             "3.1.1"
+ash                       NA               "3.1.3"
+assertthat                "no"             "3.1.1"
+audio                     "yes"            "3.1.3"
+base                      NA               "3.1.1"
+base64enc                 "yes"            "3.1.2"
+beepr                     "no"             "3.1.3"
+BH                        "no"             "3.1.1"
+biotools                  "no"             "3.1.3"
+bitops                    "yes"            "3.1.2"
+boot                      "no"             "3.1.1"
+BradleyTerry2             "no"             "3.1.1"
+brglm                     "yes"            "3.1.1"
+cairoDevice               "yes"            "3.1.2"
+car                       "no"             "3.1.3"
+caret                     "yes"            "3.1.3"
+caTools                   "yes"            "3.1.2"
+chron                     "yes"            "3.1.3"
+class                     "yes"            "3.1.1"
+clickme                   NA               "3.1.1"
+cluster                   "yes"            "3.1.1"
+codetools                 NA               "3.1.1"
+colorspace                "yes"            "3.1.1"
+combinat                  NA               "3.1.1"
+compiler                  NA               "3.1.1"
+CORElearn                 "yes"            "3.1.1"
+curl                      "yes"            "3.1.3"
+data.table                "yes"            "3.1.3"
+datasets                  NA               "3.1.1"
+DBI                       "no"             "3.1.1"
+deldir                    "yes"            "3.1.1"
+DEoptimR                  "no"             "3.1.1"
+devtools                  "yes"            "3.1.2"
+dichromat                 NA               "3.1.1"
+digest                    "yes"            "3.1.1"
+doParallel                "no"             "3.1.1"
+doSNOW                    "no"             "3.1.3"
+dplyr                     "yes"            "3.1.1"
+DT                        NA               "3.1.1"
+dygraphs                  "no"             "3.1.3"
+e1071                     "yes"            "3.1.1"
+elasticnet                NA               "3.1.1"
+ElemStatLearn             NA               "3.1.1"
+evaluate                  "no"             "3.1.3"
+foreach                   "no"             "3.1.3"
+forecast                  "yes"            "3.1.3"
+foreign                   "yes"            "3.1.1"
+formatR                   "no"             "3.1.3"
+Formula                   "no"             "3.1.1"
+fracdiff                  NA               "3.1.1"
+ftsa                      "no"             "3.1.3"
+gbm                       "yes"            "3.1.1"
+gdata                     "no"             "3.1.2"
+geocodeHERE               NA               "3.1.1"
+GGally                    "no"             "3.1.1"
+ggplot2                   "no"             "3.1.3"
+goftest                   "yes"            "3.1.1"
+googleVis                 "no"             "3.1.3"
+gplots                    "no"             "3.1.3"
+graphics                  NA               "3.1.1"
+grDevices                 NA               "3.1.1"
+ [ reached getOption("max.print") -- omitted 158 rows ]
